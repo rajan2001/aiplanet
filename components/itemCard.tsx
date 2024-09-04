@@ -51,7 +51,7 @@ export const ItemCard = ({ res }: any) => {
           }}
         >
           {res?.image && (
-            <div>
+            <div className='h-[170px] overflow-hidden'>
               <CldImage
                 width="960"
                 height="600"
